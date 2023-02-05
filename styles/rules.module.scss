@@ -1,0 +1,45 @@
+@import "colors";
+@import "fonts";
+.main{
+  font-family: 'Bluu Next Cyrillic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: $red;
+}
+.ruleblock{
+  background-color: $buege;
+  margin: 30px 0;
+  padding: 30px 50px;
+  &:last-child{
+    margin-bottom: 75px;
+  }
+}
+.rules{
+
+}
+.title{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: $green;
+}
+.h1{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: $black;
+}
+.number{
+  font-family: 'Bluu Next Cyrillic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: $green;
+}

@@ -1,0 +1,144 @@
+@import "colors";
+@import "fonts";
+.input{
+  border: none;
+  border-bottom: 3px solid $green;
+  background-color: inherit;
+  color: $green;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 30px;
+  transition: .5s;
+  &:focus{
+    color: $black;
+  }
+  &::placeholder {color: $green;}
+}
+.login{
+  padding: 100px 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.have{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $green;
+  cursor: pointer;
+  display: inline-block;
+  transition: .4s;
+  &:hover{
+    color: $red;
+  }
+}
+.rules{
+  border-bottom: 3px solid $green;
+  color: $green;
+  padding-bottom: 2px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  transition: .4s;
+  &:hover{
+    color: $red;
+    border-bottom: 3px solid $red;
+  }
+}
+.greeting{
+  color: $red;
+  font-family: 'Bluu Next Cyrillic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+}
+.greeting_2{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $green;
+}
+.button{
+  background-color: $red;
+  color: $white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  transition: .4s;
+  border: 2px solid $red;
+  &:hover{
+    background-color: inherit;
+    color: $red;
+  }
+}
+.button_unactive{
+  cursor: inherit;
+  opacity: 70%;
+  background-color: $red;
+  color: $white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  transition: .4s;
+  border: 2px solid $red;
+}
+#logbutt{
+  margin-top: 40px;
+}
+#regbutt{
+  margin-bottom: 15px;
+}
+.links{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#greet{
+  padding: 60px;
+}
+.agree_block{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: $green;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.agreement{
+  width: 22px;
+  height: 22px;
+  border: 3px solid $green;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  cursor: pointer;
+}

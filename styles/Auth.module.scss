@@ -1,0 +1,38 @@
+@import "colors";
+@import "fonts";
+.auth_inner{
+  height: 582px;
+  width: 1057px;
+  background-color: $buege;
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.alert{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  height: 0px;
+  line-height: 26px;
+  color: $green;
+}
+.auth{
+  height: 753px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.ladies_right{
+  transform: translateX(+544px);
+}
+.ladies_left{
+  transform: translateX(0px);
+}
+#ladies{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: .4s;
+}

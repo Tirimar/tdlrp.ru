@@ -1,0 +1,64 @@
+@import "fonts";
+@import "colors";
+.wiki {
+  height: 697px;
+  width: 1326px;
+}
+.wikiblock{
+  display: grid;
+  grid-template-columns: 594px 736px;
+  grid-template-rows: 450px;
+  padding-bottom: 107px;
+  padding-top: 70px ;
+}
+.wiki_chosen{
+  font-family: 'Bluu Next Cyrillic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: $red;
+}
+.text_inner{
+  padding: 74px 130px;
+  padding-left: 87px;
+  background-color: $buege;
+  position: relative;
+}
+.title{
+  font-family: 'Bluu Next Cyrillic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: $green;
+  position: relative;
+  &::after {
+    border-bottom: 3px solid $green;
+    width: 125px;
+    bottom: -19px;
+    left: 0;
+    content: "";
+    height: 3px;
+    position: absolute;
+  }
+}
+.description{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $black;
+}
+.link{
+  position: absolute;
+  right: 130px;
+  bottom: 74px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $green;
+}

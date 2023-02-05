@@ -1,0 +1,41 @@
+@import "colors";
+@import "fonts";
+.card{
+  width: 512px;
+  height: 710px;
+  background-color: $buege;
+  transition: .5s;
+  margin: 0 16px;
+}
+.card_inner{
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.textplate{}
+.name{
+  font-family: 'Bluu Next Cyrillic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: $red;
+  margin-top: 15px;
+}
+.title{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: $green;
+}
+.description{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $black;
+}

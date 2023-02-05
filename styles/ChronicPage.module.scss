@@ -1,0 +1,55 @@
+@import "fonts";
+@import "colors";
+
+.chronic{
+  background-color: $buege;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 150px 240px 750px;
+  justify-content: space-between;
+  margin-bottom: 31px;
+  padding: 32px;
+  flex-direction: row;
+  position: relative;
+  grid-gap: 32px;
+}
+.date{
+  margin-left: 32px;
+  white-space: nowrap;
+}
+.date_1st_letter{
+  font-family: 'Bluu Next Cyrillic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: $red;
+  white-space: nowrap;
+}
+.date_other{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $black;
+  margin-left: 5px;
+}
+.description{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $black;
+  margin-right: 32px;
+}
+.title{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: $green;
+  white-space: nowrap;
+}

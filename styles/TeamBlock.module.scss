@@ -1,0 +1,43 @@
+@import "colors";
+@import "fonts";
+.container{
+  width: 1326px;
+  height: 881px;
+  display: flex;
+  flex-direction: column;
+}
+.container_inner{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.team{
+  font-family: 'Bluu Next Cyrillic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: $red;
+  margin-bottom: 20px;
+}
+.myteam{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.leftArrow{
+  transform: rotateY(180deg);
+  background-color: $buege;
+  padding: 6px 12px;
+  border-radius: 22px;
+  padding-right: 14px;
+  cursor: pointer;
+}
+.rightArrow{
+  background-color: $buege;
+  padding: 6px 12px;
+  padding-left: 14px;
+  border-radius: 22px;
+  cursor: pointer;
+}

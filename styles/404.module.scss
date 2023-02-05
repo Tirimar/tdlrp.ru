@@ -1,0 +1,36 @@
+@import "fonts";
+@import "colors";
+
+.error_block{
+  width: 670px;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $buege;
+  margin-top: 110px;
+  margin-bottom: 170px;
+  flex-direction: column;
+}
+.error{
+  width: 1326px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-family: 'Bluu Next Cyrillic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 160px;
+  line-height: 192px;
+  color: $red;
+}
+.wrong{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: $black;
+}

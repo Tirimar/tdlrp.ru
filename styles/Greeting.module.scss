@@ -1,0 +1,84 @@
+@import "fonts";
+@import "colors";
+.greeting{
+  height: 764px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+//42.5
+.window{
+  width: 594px;
+  height: 594px;
+  margin-top: 42.5px;
+  border-top-left-radius: 297px;
+  border-top-right-radius: 297px;
+}
+.info{
+  display: block;
+  align-items: center;
+  text-align: left;
+}
+.h1{
+  font-family: 'Bluu Next Cyrillic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  color: $red;
+}
+.spans{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: $black;
+}
+.link{font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: inherit;
+}
+
+.startgame{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $white;
+  background-color: $red;
+  padding: 23.5px 87.5px;
+  transition: .5s;
+  border: 2px solid $white;
+  &:hover{
+    border: 2px solid $red;
+    background-color: $white;
+    color: $red;
+  }
+}
+.launcher{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $red;
+  background-color: inherit;
+  padding: 23.5px 87.5px;
+  border: 2px solid $red;
+  transition: .5s;
+  &:hover{
+    background-color: $red;
+    color: $white;
+  }
+}
+
+.buttons{
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-between;
+}

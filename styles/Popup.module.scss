@@ -1,0 +1,44 @@
+@import "colors";
+@import "fonts";
+.popup{
+  padding: 32px;
+  background-color: $red;
+  color: $white;
+  position: fixed;
+  z-index: 5;
+  right: 50px;
+  bottom: 100px;
+  margin-left: 20px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  animation: hiding 3s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hiding {
+  0% {
+    opacity: 5%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+    display: none;
+  }
+}
+
+@keyframes animation-name {
+  0% {
+    color: pink;
+  }
+  50% {
+    color: yellow;
+  }
+  100% {
+    color: blue;
+  }
+}

@@ -1,0 +1,278 @@
+@import "fonts";
+@import "colors";
+.profile{
+  position: relative;
+  width: 1327px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  padding-bottom: 65px;
+}
+.profile_info{
+  background-color: $buege;
+  margin-top: 70px;
+  width: 470px;
+  height: 552px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+}
+.pre_read{
+  width: 350px;
+  height: 270px;
+  background-color: $white;
+  transition: .4s;
+  z-index: 1;
+  position: relative;
+  border: 2px solid $buege;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: .4s;
+}
+.pre_read_drag{
+  width: 350px;
+  height: 270px;
+  background: linear-gradient(0deg, rgba(121, 113, 71, 0.25), rgba(121, 113, 71, 0.25)), #EDE8DA;
+  border: 2px dashed $green;
+  transition: .4s;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: .4s;
+}
+.drop{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: $green;
+}
+.menu{
+  margin-top: 20px;
+  position: relative;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  cursor: pointer;
+  color: $green;
+  padding: 15px 36px;
+  border: 2px solid $green;
+  width: 100%;
+  transition: .4s;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  &:hover{
+    background-color: $green;
+    color: $buege;
+  }
+}
+.arrow{
+  transform: rotate(90deg);
+  height: 18px;
+  width: 9px;
+  margin-top: 5px;
+  transition: .4s;
+}
+.arrow_rotated{
+  transform: rotate(-90deg);
+  height: 18px;
+  width: 9px;
+  margin-top: 5px;
+  transition: .4s;
+}
+.option{
+  cursor: pointer;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: $green;
+  padding: 15px 36px;
+  border: 2px solid $green;
+  width: 100%;
+  transition: .4s;
+  border-top: none;
+  &:hover{
+    background-color: $green;
+    color: $buege;
+  }
+}
+.option_checked{
+  cursor: pointer;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  background-color: $green;
+  color: $buege;
+  padding: 15px 36px;
+  border: 2px solid $green;
+  border-top: none;
+  width: 100%;
+  transition: .4s;
+  &:hover{
+    background-color: inherit;
+    color: $green;
+  }
+}
+.optionslist{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.image{
+
+  width: 67.5px;
+  height: 75px;
+}
+.info{
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.nickname{
+  color: $red;
+  font-family: 'Bluu Next Cyrillic';
+  justify-self: flex-start;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+
+  position: relative;
+  &::after {
+    border-bottom: 3px solid $red;
+    width: 125px;
+    bottom: -15px;
+    left: 0;
+    content: "";
+    height: 3px;
+    position: absolute;
+  }
+}
+.title{
+  font-family: 'Bluu Next Cyrillic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: $red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.upload_info{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $green;
+}
+.search{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $red;
+  background-color: inherit;
+  border: 2px solid $red;
+  padding: 9px 36px;
+  align-items: flex-start;
+  max-width: 150px;
+  transition: .4s;
+  &:hover{
+    color: $white;
+    background-color: $red;
+  }
+}
+.upload_skin{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $white;
+  background-color: $red;
+  padding: 9px 44px;
+  border: 2px solid $red;
+  transition: .4s;
+  margin-bottom: 20px;
+  &:hover{
+    color: $red;
+    background-color: inherit;
+  }
+}
+.upload_cloak{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $white;
+  background-color: $green;
+  padding: 9px 44px;
+  border: 2px solid $green;
+  transition: .4s;
+  &:hover{
+    color: $green;
+    background-color: inherit;
+  }
+}
+.admin{
+  position: absolute;
+  right: 0;
+  top: 65px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $red;
+  background-color: inherit;
+  padding: 9px 35px;
+  border: 2px solid $red;
+  transition: .4s;
+  &:hover{
+    color: $white;
+    background-color: $red;
+  }
+}
+.moder{
+  position: absolute;
+  right: 0;
+  top: 65px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: $green;
+  background-color: inherit;
+  padding: 9px 35px;
+  border: 2px solid $green;
+  transition: .4s;
+  &:hover{
+    color: $white;
+    background-color: $green;
+  }
+}

@@ -1,0 +1,18 @@
+@import "colors";
+@import "fonts";
+.chronicles{
+  width: 1328px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+.main{
+  font-family: 'Bluu Next Cyrillic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: $red;
+}
